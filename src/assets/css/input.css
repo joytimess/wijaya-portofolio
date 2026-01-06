@@ -1,5 +1,18 @@
 @import "tailwindcss";
 
-*{
+@font-face {
+  font-family: 'Lora';
+  src: url("./font-lora.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@layer utilities {
+  .font-nyghtserif {
+    font-family: 'Lora';
+  }
+}
+
+html, body{
     font-family : "Poppins", sans-serif;
 }

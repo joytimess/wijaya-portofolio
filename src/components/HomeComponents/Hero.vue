@@ -1,3 +1,5 @@
 <template>
-    Hero
+    <section class="">
+        
+    </section>
 </template>
