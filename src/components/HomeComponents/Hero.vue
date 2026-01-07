@@ -18,7 +18,7 @@ import 'animate.css';
                 <p class="mt-5 mb-10 w-195 text-lg">
                     Website ini menampilkan progress proyek dan kontribusi saya sebagai pengembang di aspek teknologi.
                 </p>
-                <a href="" class="px-5 text-white py-2.5 mt-2.5 bg-[#0259DD] font-semibold rounded-full">Hubungi Saya</a>
+                <a href="#contact" class="px-5 text-white py-2.5 mt-2.5 bg-[#0259DD] font-semibold rounded-full">Hubungi Saya</a>
             </div>
             <div class="relative w-1/4">
                 <span 

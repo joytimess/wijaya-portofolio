@@ -27,10 +27,10 @@ onMounted(async () => {
                 <a href="#portofolio">Portfolio</a>
             </li>
             <li>
-                <a href="">Pendidikan</a>
+                <a href="#education">Pendidikan</a>
             </li>
             <li>
-                <a href="">Kontak</a>
+                <a href="#contact">Kontak</a>
             </li>
         </ul>
     </nav>
