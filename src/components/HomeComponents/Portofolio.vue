@@ -5,6 +5,12 @@ import portofolioSuburbHub from '@/assets/images/portofolio-suburb-hub.jpg';
 // @ts-ignore
 import portofolioMax from '@/assets/images/portofolio-max-11.jpg';
 // @ts-ignore
+import portofolioGT from '@/assets/images/portofolio-gt-radial.png';
+// @ts-ignore
+import portofolioSubaru from '@/assets/images/portofolio-subaru.png';
+// @ts-ignore
+import portofolioSelf from '@/assets/images/portofolio-self.png';
+// @ts-ignore
 import feather from 'feather-icons'
 
 onMounted(async () => {    
@@ -42,7 +48,7 @@ onMounted(async () => {
                         class="
                             scale-250 translate-x-90 translate-y-37.5 rounded-xl
                             transition-all duration-300 ease-out
-                            group-hover:translate-y-45">
+                            group-hover:translate-y-42.5">
                 </div>
                 <div class="relative group w-2/3 bg-[#1EC338] h-100 rounded-4xl overflow-hidden">
                     <div class="
@@ -84,7 +90,7 @@ onMounted(async () => {
                     <div class="py-5">
                         <p class="text-right px-5 text-2xl text-white font-semibold">Subaru Indonesia Copied</p>
                     </div>
-                    <img :src="portofolioMax" alt="portofolio-max-11.jpg"
+                    <img :src="portofolioSubaru" alt="portofolio-subaru.png"
                         class="
                             translate-x-15 rounded-xl
                             transition-all duration-300 ease-out
@@ -111,11 +117,11 @@ onMounted(async () => {
                     <div class="py-5">
                         <p class="text-right px-5 text-2xl text-white font-semibold">GT-Radial Copied</p>
                     </div>
-                    <img :src="portofolioSuburbHub" alt="portofolio-suburb-hub.jpg" 
+                    <img :src="portofolioGT" alt="portofolio-suburb-hub.jpg" 
                         class="
-                            scale-250 translate-x-90 translate-y-37.5 rounded-xl
+                            scale-250 translate-x-90 translate-y-45 rounded-xl
                             transition-all duration-300 ease-out
-                            group-hover:translate-y-45">
+                            group-hover:translate-y-50">
                 </div>
             </div>
         </div>

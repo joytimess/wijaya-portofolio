@@ -9,6 +9,10 @@ import HomeHero from '@/components/HomeComponents/Hero.vue'
 import HomeAbout from '@/components/HomeComponents/About.vue'
 // @ts-ignore
 import HomePortofolio from '@/components/HomeComponents/Portofolio.vue'
+// @ts-ignore
+import HomeEducation from '@/components/HomeComponents/Education.vue'
+// @ts-ignore
+import HomeContact from '@/components/HomeComponents/Contact.vue'
 </script>
 
 <template>
@@ -17,6 +21,8 @@ import HomePortofolio from '@/components/HomeComponents/Portofolio.vue'
         <HomeHero/>
         <HomeAbout/>
         <HomePortofolio/>
+        <HomeEducation/>
+        <HomeContact/>
         <Footer/>
     </main>
 </template>
