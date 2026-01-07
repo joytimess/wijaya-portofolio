@@ -5,7 +5,7 @@ import 'animate.css';
 
 </script>
 <template>
-    <section id="hero" class="min-h-screen flex items-center justify-center text-gray-800 animate__animated animate__fadeInUp">
+    <section id="hero" class="min-h-screen py-30 flex items-center justify-center text-gray-800 animate__animated animate__fadeInUp">
         <div class="w-full flex items-center px-80">
             <div class="w-3/4">
                 <p class="font-lora text-2xl">
@@ -15,7 +15,7 @@ import 'animate.css';
                     Bambang Wijaya
                 </p>
                 <p class="mt-3 text-xl">Fullstack Developer • Laravel and VueJS Enthusiast</p>
-                <p class="mt-5 mb-10 w-175">
+                <p class="mt-5 mb-10 w-195 text-lg">
                     Website ini menampilkan progress proyek dan kontribusi saya sebagai pengembang di aspek teknologi.
                 </p>
                 <a href="" class="px-5 text-white py-2.5 mt-2.5 bg-[#0259DD] font-semibold rounded-full">Hubungi Saya</a>

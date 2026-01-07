@@ -20,7 +20,7 @@ html, body{
 
 .style-navbar{
     @apply
-    flex items-center gap-7.5 px-10 py-2.5 mt-5 rounded-full font-medium bg-gray-10 shadow-md;
+    flex items-center gap-7.5 px-10 py-2.5 mt-5 rounded-full font-medium shadow-md bg-gray-100/50 backdrop-blur-lg;
 }
 
 .style-navbar-active{
