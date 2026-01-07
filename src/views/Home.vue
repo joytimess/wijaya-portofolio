@@ -7,6 +7,8 @@ import Footer from '@/components/Footer.vue'
 import HomeHero from '@/components/HomeComponents/Hero.vue'
 // @ts-ignore
 import HomeAbout from '@/components/HomeComponents/About.vue'
+// @ts-ignore
+import HomePortofolio from '@/components/HomeComponents/Portofolio.vue'
 </script>
 
 <template>
@@ -14,6 +16,7 @@ import HomeAbout from '@/components/HomeComponents/About.vue'
         <Navbar/>
         <HomeHero/>
         <HomeAbout/>
+        <HomePortofolio/>
         <Footer/>
     </main>
 </template>

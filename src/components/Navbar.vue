@@ -24,7 +24,7 @@ onMounted(async () => {
                 <a href="#about-me">Tentang Saya</a>
             </li>
             <li>
-                <a href="">Portfolio</a>
+                <a href="#portofolio">Portfolio</a>
             </li>
             <li>
                 <a href="">Pendidikan</a>
