@@ -6,7 +6,7 @@ import 'animate.css';
 </script>
 <template>
     <section id="hero" class="min-h-screen py-30 flex items-center justify-center text-gray-800 animate__animated animate__fadeInUp">
-        <div class="w-full flex items-center px-80 max-sm:px-10 max-sm:block max-md:px-15 max-md:block">
+        <div class="w-full flex items-center px-80 max-sm:px-10 max-sm:block max-md:px-15 max-md:block max-xl:px-20 max-2xl:px-40">
             <div class="w-3/4">
                 <p class="font-lora text-2xl">
                     Halo Semua, saya

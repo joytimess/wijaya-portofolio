@@ -20,7 +20,7 @@ onMounted(async () => {
 </script>
 
 <template>
-    <section id="portofolio" class="px-80 py-20 bg-slate-200 max-sm:px-10 max-md:px-15">
+    <section id="portofolio" class="px-80 py-20 bg-slate-200 max-sm:px-10 max-md:px-15 max-xl:px-20 max-2xl:px-40">
         <!-- TITLE PORTOFOLIO -->
         <div>
             <h2 class="text-center text-2xl text-[#0259DD] font-semibold uppercase max-sm:text-lg max-md:text-lg">Portofolio</h2>

@@ -1,22 +1,22 @@
 <template>
-    <section class="bg-slate-800 py-20 px-80 max-sm:px-10">
+    <section class="bg-slate-800 py-20 px-80 max-sm:px-10 max-md:px-15 max-xl:px-20 max-2xl:px-40">
         <div class="flex items-start gap-10 justify-between">
             <div class="w-1/3">
-                <h1 class="text-4xl text-white font-bold max-sm:text-2xl">Bambang Wijaya</h1>
-                <h3 class="text-2xl text-white font-medium mt-5 max-sm:text-lg">Hubungi Saya</h3>
+                <h1 class="text-4xl text-white font-bold max-sm:text-2xl max-md:text-2xl">Bambang Wijaya</h1>
+                <h3 class="text-2xl text-white font-medium mt-5 max-sm:text-lg max-md:text-lg">Hubungi Saya</h3>
                 <div class="mt-3">
-                    <a href="mailto:bmbgwijaya@outlook.com" class="underline text-white text-lg max-sm:text-sm">bmbgwijaya@outlook.com</a>
-                    <p class="text-white text-lg max-sm:text-sm">Jakarta Selatan</p>
+                    <a href="mailto:bmbgwijaya@outlook.com" class="underline text-white text-lg max-sm:text-sm max-md:text-sm">bmbgwijaya@outlook.com</a>
+                    <p class="text-white text-lg max-sm:text-sm max-md:text-sm">Jakarta Selatan</p>
                 </div>
             </div>
             <div class="w-2/3 text-right">
-                <h1 class="text-4xl text-white font-bold max-sm:text-2xl">Navigasi</h1>
+                <h1 class="text-4xl text-white font-bold max-sm:text-2xl max-md:text-2xl">Navigasi</h1>
                 <div class="mt-5">
-                    <a href="#hero" class="block text-lg text-white hover:underline max-sm:text-lg">Beranda</a>
-                    <a href="#about-me" class="block text-lg text-white hover:underline mt-2 max-sm:text-sm">Tentang Saya</a>
-                    <a href="#portofolio" class="block text-lg text-white hover:underline mt-2 max-sm:text-sm">Portfolio</a>
-                    <a href="#education" class="block text-lg text-white hover:underline mt-2 max-sm:text-sm">Pendidikan</a>
-                    <a href="#contact" class="block text-lg text-white hover:underline mt-2 max-sm:text-sm">Kontak</a>
+                    <a href="#hero" class="block text-lg text-white hover:underline max-sm:text-lg max-md:text-sm">Beranda</a>
+                    <a href="#about-me" class="block text-lg text-white hover:underline mt-2 max-sm:text-sm max-md:text-sm">Tentang Saya</a>
+                    <a href="#portofolio" class="block text-lg text-white hover:underline mt-2 max-sm:text-sm max-md:text-sm">Portfolio</a>
+                    <a href="#education" class="block text-lg text-white hover:underline mt-2 max-sm:text-sm max-md:text-sm">Pendidikan</a>
+                    <a href="#contact" class="block text-lg text-white hover:underline mt-2 max-sm:text-sm max-md:text-sm">Kontak</a>
                 </div>
             </div>
         </div>

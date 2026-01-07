@@ -8,7 +8,7 @@ import educationDicoding from '@/assets/images/education-dicoding.png';
 </script>
 
 <template>
-    <section id="education" class="h-[65vh] bg-zinc-800 px-80 flex justify-center items-center max-sm:px-10 max-md:px-15">
+    <section id="education" class="h-[65vh] bg-zinc-800 px-80 flex justify-center items-center max-sm:px-10 max-md:px-15 max-xl:px-20 max-2xl:px-40">
         <div>
             <!-- TITLE EDUCATION -->
             <div>
