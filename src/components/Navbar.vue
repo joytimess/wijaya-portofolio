@@ -1,18 +1,27 @@
 <script setup lang="ts">
+// @ts-ignore
+import feather from 'feather-icons'
+import { onMounted, nextTick } from 'vue'
+import 'animate.css';
+
+onMounted(async () => {    
+    await nextTick()
+    feather.replace()
+})
 
 </script>
 
 <template>
-    <nav class="flex justify-center items-center">
-        <ul class="flex items-center gap-7.5 px-10 py-2.5 mt-5 bg-gray-100 rounded-full">
-            <li class="bg-white px-2.5 py-2 rounded-full">
-                <a href="">
+    <nav class="navbar-main animate__animated animate__fadeInDown">
+        <ul class="style-navbar">
+            <li class="style-navbar-active">
+                <a href="#hero">
                     Beranda
-                    <span class="text-xs border px-2 py-1 rounded-md border-gray-200 shadow-sm">/</span>
+                    <span class="style-navbar-accent">/</span>
                 </a>
             </li>
             <li>
-                <a href="">Tentang Saya</a>
+                <a href="#about-me">Tentang Saya</a>
             </li>
             <li>
                 <a href="">Portfolio</a>

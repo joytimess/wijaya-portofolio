@@ -8,11 +8,32 @@
 }
 
 @layer utilities {
-  .font-nyghtserif {
+  .font-lora {
     font-family: 'Lora';
   }
 }
 
 html, body{
     font-family : "Poppins", sans-serif;
+    scroll-behavior : smooth;
+}
+
+.style-navbar{
+    @apply
+    flex items-center gap-7.5 px-10 py-2.5 mt-5 rounded-full font-medium bg-gray-10 shadow-md;
+}
+
+.style-navbar-active{
+  @apply
+  bg-white backdrop-blur-md  px-5 py-2 rounded-full;
+}
+
+.style-navbar-accent{
+  @apply
+  text-xs border px-2 py-1 rounded-md border-gray-200 shadow-sm
+}
+
+.navbar-main{
+  @apply
+  fixed top-1 left-1/2 -translate-x-1/2 z-10
 }
