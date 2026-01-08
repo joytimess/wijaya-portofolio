@@ -211,6 +211,7 @@ onMounted(async () => {
                 scale-65 -translate-y-30 rounded-xl
                 transition-all duration-300 ease-out
                 group-hover:-translate-y-25
+                max-sm:hidden
                 max-sm:scale-100
                 max-sm:translate-x-25
                 max-sm:translate-y-30
