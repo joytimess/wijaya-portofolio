@@ -161,7 +161,7 @@ onMounted(async () => {
         </div>
         <!-- ADDITIONAL PORTOFOLIO -->
         <a
-            href="https://www.facebook.com/"
+            href="https://wijaya-portofolio.vercel.app"
             target="_blank"
             class="relative group block w-full bg-[#0259DD] h-100 rounded-4xl overflow-hidden mt-10"
             >
