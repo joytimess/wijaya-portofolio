@@ -2,7 +2,7 @@
     <section id="about-me" class="px-80 py-20 max-sm:px-10 max-md:px-15 max-xl:px-20 max-2xl:px-40 2xl:h-screen">
         <h1 class="text-[#0259DD] text-2xl font-bold uppercase">Tentang Saya</h1>
         <div class="grid grid-cols-2 gap-10 mt-5 max-sm:grid-cols-1 max-md:grid-cols-1">
-            <div>
+            <div class="w-full">
                 <h1 class="text-4xl font-bold tracking-wide max-sm:text-2xl max-md:text-2xl">Mahasiswa IT Program Studi Teknologi Rekayasa Multimedia</h1>
                 <p class="py-5 text-lg text-justify max-sm:text-base max-md:text-base">Saya adalah seorang mahasiswa <strong>Politeknik Negeri Media Kreatif Jakarta (Polimedia)</strong>, program studi <strong>Teknologi Rekayasa Multimedia</strong>. Selama saya mengembangkan ilmu di Polimedia, poin inti saya adalah membangun dan menerapkan sistem 'Full-Stack Development'.</p>
             </div>
