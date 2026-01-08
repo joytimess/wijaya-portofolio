@@ -6,7 +6,7 @@
                 <h1 class="text-4xl font-bold tracking-wide max-sm:text-2xl max-md:text-2xl">Mahasiswa IT Program Studi Teknologi Rekayasa Multimedia</h1>
                 <p class="py-5 text-lg text-justify max-sm:text-base max-md:text-base">Saya adalah seorang mahasiswa <strong>Politeknik Negeri Media Kreatif Jakarta (Polimedia)</strong>, program studi <strong>Teknologi Rekayasa Multimedia</strong>. Selama saya mengembangkan ilmu di Polimedia, poin inti saya adalah membangun dan menerapkan sistem 'Full-Stack Development'.</p>
             </div>
-            <div>
+            <div class="w-full">
                 <h1 class="text-4xl font-bold tracking-wide max-sm:text-2xl">Keahlian dan Spesialis</h1>
                 <p class="pt-5 text-lg text-justify max-sm:text-base max-md:text-base">Selama saya sebagai Full Stack Web Developer, keahlian saya ada pada pengembangan sistem menggunakan <strong>PHP</strong> dengan framework <strong>Laravel</strong>. Selain itu, spesialis saya lainnya meliputi:</p>
                 <div class="py-3 text-lg">
@@ -37,7 +37,7 @@
                 </div>
             </div>
         </div>
-        <div>
+        <div class="w-full">
             <h1 class="text-4xl font-bold tracking-wide mt-5 max-sm:text-2xl max-md:text-2xl">Mari Terkoneksi</h1>
             <p class="py-5 text-lg max-sm:text-base max-md:text-base">Saya selalu terbuka untuk bekerja sama atau kolaborasi, diskusi project, atau peluang profesional terbaru. <span class="block">Silakan hubungi saya melalui telepon, email, serta melalui jaringan situs di bawah ini.</span></p>
             <div class="flex items-center gap-3">
