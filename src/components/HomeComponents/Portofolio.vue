@@ -11,6 +11,8 @@ import portofolioSubaru from '@/assets/images/portofolio-subaru.png';
 // @ts-ignore
 import portofolioSelf from '@/assets/images/portofolio-self.png';
 // @ts-ignore
+import portofolioSelfSmall from '@/assets/images/portofolio-self-small.png';
+// @ts-ignore
 import feather from 'feather-icons'
 
 onMounted(async () => {    
@@ -52,7 +54,9 @@ onMounted(async () => {
                         scale-250 translate-x-85 translate-y-35 rounded-xl
                         transition-all duration-300 ease-out
                         group-hover:translate-y-42.5
-                        max-sm:scale-125
+                        max-sm:scale-175
+                        max-sm:translate-x-50
+                        max-sm:translate-y-20
                         max-md:scale-125
                         max-md:translate-x-30
                         max-md:translate-y-10">
@@ -78,9 +82,9 @@ onMounted(async () => {
                         translate-x-15 rounded-xl
                         transition-all duration-300 ease-out
                         group-hover:translate-y-5
-                        max-sm:scale-125
-                        max-sm:translate-x-30
-                        max-sm:translate-y-10
+                        max-sm:scale-175
+                        max-sm:translate-x-50
+                        max-sm:translate-y-20
                         max-md:scale-125
                         max-md:translate-x-30
                         max-md:translate-y-10">
@@ -112,9 +116,9 @@ onMounted(async () => {
                         translate-x-15 rounded-xl
                         transition-all duration-300 ease-out
                         group-hover:translate-y-5
-                        max-sm:scale-125
-                        max-sm:translate-x-30
-                        max-sm:translate-y-10
+                        max-sm:scale-175
+                        max-sm:translate-x-50
+                        max-sm:translate-y-20
                         max-md:scale-125
                         max-md:translate-x-30
                         max-md:translate-y-10">
@@ -147,9 +151,9 @@ onMounted(async () => {
                         scale-250 translate-x-90 translate-y-45 rounded-xl
                         transition-all duration-300 ease-out
                         group-hover:translate-y-50
-                        max-sm:scale-125
-                        max-sm:translate-x-30
-                        max-sm:translate-y-10
+                        max-sm:scale-175
+                        max-sm:translate-x-50
+                        max-sm:translate-y-30
                         max-md:scale-125
                         max-md:translate-x-30
                         max-md:translate-y-10">
@@ -182,16 +186,34 @@ onMounted(async () => {
                 </p>
             </div>
             <img
+            :src="portofolioSelfSmall"
+            alt="portofolio-pribadi-small.png"
+            class="
+                hidden
+                relative z-10
+                scale-65 -translate-y-30 rounded-xl
+                transition-all duration-300 ease-out
+                group-hover:-translate-y-25
+                max-sm:block
+                max-sm:scale-145
+                max-sm:translate-x-35
+                max-sm:translate-y-15
+                max-md:scale-115
+                max-md:translate-x-25
+                max-md:translate-y-10
+            "
+            >
+            <img
             :src="portofolioSelf"
-            alt="portofolio-pribadi.jpg"
+            alt="portofolio-pribadi.png"
             class="
                 relative z-10
                 scale-65 -translate-y-30 rounded-xl
                 transition-all duration-300 ease-out
                 group-hover:-translate-y-25
-                max-sm:scale-115
-                max-sm:translate-x-20
-                max-sm:translate-y-12.5
+                max-sm:scale-100
+                max-sm:translate-x-25
+                max-sm:translate-y-30
                 max-md:scale-115
                 max-md:translate-x-25
                 max-md:translate-y-10

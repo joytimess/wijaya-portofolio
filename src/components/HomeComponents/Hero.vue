@@ -15,7 +15,7 @@ import 'animate.css';
                     Bambang Wijaya
                 </p>
                 <p class="mt-3 text-xl max-sm:text-lg max-md:text-lg">Fullstack Developer • Laravel and VueJS Enthusiast</p>
-                <p class="mt-5 mb-10 w-195 text-lg max-sm:w-135 max-sm:text-base max-md:text-base max-md:w-160">
+                <p class="mt-5 mb-10 w-195 text-lg max-sm:w-90 max-sm:text-base max-md:text-base max-md:w-160">
                     Website ini menampilkan progress proyek dan kontribusi saya sebagai pengembang di aspek teknologi.
                 </p>
                 <a href="#contact" class="px-5 text-white py-2.5 mt-2.5 bg-[#0259DD] font-semibold rounded-full">Hubungi Saya</a>
@@ -30,7 +30,7 @@ import 'animate.css';
                     alt="faces" 
                     class="relative z-10 rounded-b-lg text-center max-sm:hidden max-md:hidden">
                 </div>
-            <div class="hidden max-sm:flex max-sm:justify-center max-md:flex max-md:justify-center">
+            <div class="hidden w-full max-sm:flex max-sm:justify-center max-md:flex max-md:justify-center">
                 <img 
                     :src="facesHeightImg" 
                     alt="faces" 
