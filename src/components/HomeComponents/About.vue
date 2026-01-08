@@ -1,5 +1,5 @@
 <template>
-    <section id="about-me" class="min-h-screen px-80 py-20 max-sm:px-10 max-md:px-15 max-xl:px-20 max-2xl:px-40 2xl:h-screen">
+    <section id="about-me" class="px-80 py-20 max-sm:px-10 max-md:px-15 max-xl:px-20 max-2xl:px-40 2xl:h-screen">
         <h1 class="text-[#0259DD] text-2xl font-bold uppercase">Tentang Saya</h1>
         <div class="grid grid-cols-2 gap-10 mt-5 max-sm:grid-cols-1 max-md:grid-cols-1">
             <div>
