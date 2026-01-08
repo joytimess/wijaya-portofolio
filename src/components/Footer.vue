@@ -12,7 +12,7 @@
             <div class="w-2/3 text-right">
                 <h1 class="text-4xl text-white font-bold max-sm:text-2xl max-md:text-2xl">Navigasi</h1>
                 <div class="mt-5">
-                    <a href="#hero" class="block text-lg text-white hover:underline max-sm:text-lg max-md:text-sm">Beranda</a>
+                    <a href="#hero" class="block text-lg text-white hover:underline max-sm:text-sm max-md:text-sm">Beranda</a>
                     <a href="#about-me" class="block text-lg text-white hover:underline mt-2 max-sm:text-sm max-md:text-sm">Tentang Saya</a>
                     <a href="#portofolio" class="block text-lg text-white hover:underline mt-2 max-sm:text-sm max-md:text-sm">Portfolio</a>
                     <a href="#education" class="block text-lg text-white hover:underline mt-2 max-sm:text-sm max-md:text-sm">Pendidikan</a>
