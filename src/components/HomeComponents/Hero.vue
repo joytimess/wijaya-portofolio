@@ -34,7 +34,7 @@ import 'animate.css';
                 <img 
                     :src="facesHeightImg" 
                     alt="faces" 
-                    class="rounded-b-lg text-center max-sm:h-125 max-md:h-105">
+                    class="rounded-b-lg text-center max-sm:h-100 max-md:h-105">
             </div>
         </div>
     </section>

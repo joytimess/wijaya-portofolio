@@ -1,6 +1,6 @@
 <template>
     <!-- TITLE CONTACT -->
-    <section id="contact" class="px-80 py-20 h-1/2 max-sm:px-10 max-md:px-15 max-xl:px-20 max-2xl:px-40">
+    <section id="contact" class="px-80 py-20 2xl:h-1/2 max-sm:px-10 max-md:px-15 max-xl:px-20 max-2xl:px-40">
         <h2 class="text-center text-2xl text-[#0259DD] font-semibold uppercase max-sm:text-xl max-md:text-xl">Kontak</h2>
         <h1 class="text-center text-4xl font-bold mt-5 max-sm:text-2xl max-sm:mt-2 max-md:mt-2 max-md:text-2xl">Hubungi Saya</h1>
         <div class="flex justify-center items-center gap-3 mt-5">

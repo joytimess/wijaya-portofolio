@@ -939,6 +939,11 @@
       height: calc(var(--spacing) * 10);
     }
   }
+  .max-sm\:h-100 {
+    @media (width < 40rem) {
+      height: calc(var(--spacing) * 100);
+    }
+  }
   .max-sm\:h-125 {
     @media (width < 40rem) {
       height: calc(var(--spacing) * 125);
@@ -1064,6 +1069,16 @@
     @media (width < 40rem) {
       --tw-grayscale: grayscale(0%);
       filter: var(--tw-blur,) var(--tw-brightness,) var(--tw-contrast,) var(--tw-grayscale,) var(--tw-hue-rotate,) var(--tw-invert,) var(--tw-saturate,) var(--tw-sepia,) var(--tw-drop-shadow,);
+    }
+  }
+  .\32 xl\:h-1\/2 {
+    @media (width >= 96rem) {
+      height: calc(1/2 * 100%);
+    }
+  }
+  .\32 xl\:h-\[65vh\] {
+    @media (width >= 96rem) {
+      height: 65vh;
     }
   }
   .\32 xl\:h-screen {
