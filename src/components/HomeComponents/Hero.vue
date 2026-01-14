@@ -10,14 +10,14 @@ import 'animate.css';
     <section id="hero" class="small-bg py-30 flex items-center justify-center text-gray-800 animate__animated animate__fadeInUp 2xl:h-screen">
         <div class="w-full flex items-center px-80 max-sm:px-10 max-sm:block max-md:px-15 max-md:block max-xl:px-20 max-2xl:px-40">
             <div class="w-3/4">
-                <p class="font-lora text-2xl">
+                <p class="font-lora text-2xl max-lg:text-xl">
                     Halo Semua, saya
                 </p>
-                <p class="text-6xl font-semibold text-[#0259DD] max-sm:text-4xl max-md:text-4xl">
+                <p class="text-6xl font-semibold text-[#0259DD] max-sm:text-4xl max-md:text-4xl max-lg:text-4xl">
                     Bambang Wijaya
                 </p>
                 <p class="mt-3 text-xl max-sm:text-lg max-md:text-lg">Fullstack Developer • Laravel and VueJS Enthusiast</p>
-                <p class="mt-5 mb-10 w-195 text-lg max-sm:w-90 max-sm:text-base max-md:text-base max-md:w-160 max-lg:w-135">
+                <p class="mt-5 mb-10 w-195 text-lg max-sm:w-90 max-sm:text-base max-md:text-base max-md:w-160 max-lg:w-135 max-lg:text-base">
                     Website ini menampilkan progress proyek dan kontribusi saya sebagai pengembang di aspek teknologi.
                 </p>
                 <a href="#contact" class="px-5 text-white py-2.5 mt-2.5 bg-[#0259DD] font-semibold rounded-full">Hubungi Saya</a>

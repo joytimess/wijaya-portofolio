@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { onMounted, nextTick } from 'vue'
+import { onMounted } from 'vue'
 // @ts-ignore
 import portofolioSuburbHub from '@/assets/images/portofolio-suburb-hub.jpg';
 // @ts-ignore
@@ -15,8 +15,7 @@ import portofolioSelfSmall from '@/assets/images/portofolio-self-small.png';
 // @ts-ignore
 import feather from 'feather-icons'
 
-onMounted(async () => {    
-    await nextTick()
+onMounted(async () => {
     feather.replace()
 })
 </script>
@@ -32,8 +31,8 @@ onMounted(async () => {
             </div>
         </div>
         <!-- PORTOFOLIO LATEST -->
-        <div class="flex items-center gap-10 mt-10 max-sm:grid max-sm:grid-cols-1 max-md:grid max-md:grid-cols-1">
-            <a href="https://suburb-hub.vercel.app" target="_blank" class="relative group w-1/3 bg-[#FF6648] h-100 rounded-4xl overflow-hidden max-sm:w-full max-md:w-full">
+        <div class="flex items-center gap-10 mt-10 max-sm:grid max-sm:grid-cols-1 max-md:grid max-md:grid-cols-1 max-lg:grid max-lg:grid-cols-1">
+            <a href="https://suburb-hub.vercel.app" target="_blank" class="relative group w-1/3 bg-[#FF6648] h-100 rounded-4xl overflow-hidden max-sm:w-full max-md:w-full max-lg:w-full">
                 <div class="
                     absolute 
                     top-6 left-6
@@ -48,23 +47,24 @@ onMounted(async () => {
                     <i data-feather="link" class="w-7 h-7 text-white max-sm:w-10 max-sm:h-10 max-md:w-10 max-md:h-10"></i>
                 </div>
                 <div class="py-5">
-                    <p class="text-right px-5 text-2xl text-white font-semibold">Suburb Hub</p>
+                    <p class="text-right px-5 text-2xl text-white font-semibold max-lg:text-xl">Suburb Hub</p>
                 </div>
                 <img :src="portofolioSuburbHub" alt="portofolio-suburb-hub.jpg" 
                     class="
                         scale-250 translate-x-85 translate-y-35 rounded-xl
                         transition-all duration-300 ease-out
                         group-hover:translate-y-42.5
-                        max-sm:scale-175
+                        max-sm:scale-155
                         max-sm:translate-x-50
                         max-sm:translate-y-20
                         max-md:scale-125
                         max-md:translate-x-30
                         max-md:translate-y-10
-                        max-lg:translate-x-65
-                        max-lg:translate-y-25">
+                        max-lg:scale-115
+                        max-lg:translate-x-27.5
+                        max-lg:translate-y-7.5">
             </a>
-            <a href="https://max-11.vercel.app" target="_blank" class="relative group w-2/3 bg-[#1EC338] h-100 rounded-4xl overflow-hidden max-sm:w-full max-md:w-full">
+            <a href="https://max-11.vercel.app" target="_blank" class="relative group w-2/3 bg-[#1EC338] h-100 rounded-4xl overflow-hidden max-sm:w-full max-md:w-full max-lg:w-full">
                 <div class="
                     absolute 
                     top-6 left-6
@@ -79,14 +79,14 @@ onMounted(async () => {
                     <i data-feather="award" class="w-7 h-7 text-white max-sm:w-10 max-sm:h-10 max-md:w-10 max-md:h-10"></i>
                 </div>
                 <div class="py-5">
-                    <p class="text-right px-5 text-2xl text-white font-semibold">MAX-11</p>
+                    <p class="text-right px-5 text-2xl text-white font-semibold max-lg:text-xl">MAX-11</p>
                 </div>
                 <img :src="portofolioMax" alt="portofolio-max-11.jpg"
                     class="
                         translate-x-15 rounded-xl
                         transition-all duration-300 ease-out
                         group-hover:translate-y-5
-                        max-sm:scale-175
+                        max-sm:scale-155
                         max-sm:translate-x-50
                         max-sm:translate-y-20
                         max-md:scale-125
@@ -98,8 +98,8 @@ onMounted(async () => {
             </a>
         </div>
         <!-- SUPPORT PORTOFOLIO -->
-        <div class="flex items-center gap-10 mt-10 max-sm:grid max-sm:grid-cols-1 max-md:grid max-md:grid-cols-1">
-            <a href="https://subaru-copied-with-vue.vercel.app" target="_blank" class="relative group w-2/3 bg-[#00A0DC] h-100 rounded-4xl overflow-hidden max-sm:w-full max-md:w-full">
+        <div class="flex items-center gap-10 mt-10 max-sm:grid max-sm:grid-cols-1 max-md:grid max-md:grid-cols-1 max-lg:grid max-lg:grid-cols-1">
+            <a href="https://subaru-copied-with-vue.vercel.app" target="_blank" class="relative group w-2/3 bg-[#00A0DC] h-100 rounded-4xl overflow-hidden max-sm:w-full max-md:w-full max-lg:w-full">
                 <div class="
                     absolute 
                     top-6 left-6
@@ -117,24 +117,24 @@ onMounted(async () => {
                     </svg>
                 </div>
                 <div class="py-5">
-                    <p class="text-right px-5 text-2xl text-white font-semibold">Subaru Indonesia Copied</p>
+                    <p class="text-right px-5 text-2xl text-white font-semibold max-lg:text-xl">Subaru Indonesia Copied</p>
                 </div>
                 <img :src="portofolioSubaru" alt="portofolio-subaru.png"
                     class="
                         translate-x-15 rounded-xl
                         transition-all duration-300 ease-out
                         group-hover:translate-y-5
-                        max-sm:scale-175
+                        max-sm:scale-155
                         max-sm:translate-x-50
                         max-sm:translate-y-20
                         max-md:scale-125
                         max-md:translate-x-30
                         max-md:translate-y-10
-                        max-lg:scale-125
+                        max-lg:scale-115
                         max-lg:translate-x-30
                         max-lg:translate-y-10">
             </a>
-            <div class="relative group w-1/3 bg-[#ED3F27] h-100 rounded-4xl overflow-hidden max-sm:w-full max-md:w-full">
+            <div class="relative group w-1/3 bg-[#ED3F27] h-100 rounded-4xl overflow-hidden max-sm:w-full max-md:w-full max-lg:w-full">
                 <div class="
                     absolute 
                     top-6 left-6
@@ -163,14 +163,15 @@ onMounted(async () => {
                         scale-250 translate-x-90 translate-y-45 rounded-xl
                         transition-all duration-300 ease-out
                         group-hover:translate-y-50
-                        max-sm:scale-175
+                        max-sm:scale-155
                         max-sm:translate-x-50
                         max-sm:translate-y-30
                         max-md:scale-125
                         max-md:translate-x-30
                         max-md:translate-y-10
-                        max-lg:translate-x-65
-                        max-lg:translate-y-35">
+                        max-lg:scale-115
+                        max-lg:translate-x-27.5
+                        max-lg:translate-y-10">
             </div>
         </div>
         <!-- ADDITIONAL PORTOFOLIO -->
@@ -210,7 +211,7 @@ onMounted(async () => {
                 transition-all duration-300 ease-out
                 group-hover:-translate-y-25
                 max-sm:block
-                max-sm:scale-145
+                max-sm:scale-125
                 max-sm:translate-x-35
                 max-sm:translate-y-15
                 max-md:scale-115
