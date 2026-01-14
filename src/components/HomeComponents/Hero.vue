@@ -1,11 +1,13 @@
 <script setup lang="ts">
 // @ts-ignore
 import facesHeightImg from '@/assets/images/faces-height.png';
+// @ts-ignore
+import bgLargeHero from '@/assets/images/bg-large-hero.png';
 import 'animate.css';
 
 </script>
 <template>
-    <section id="hero" class="py-30 flex items-center justify-center text-gray-800 animate__animated animate__fadeInUp 2xl:h-screen">
+    <section id="hero" class="small-bg py-30 flex items-center justify-center text-gray-800 animate__animated animate__fadeInUp 2xl:h-screen">
         <div class="w-full flex items-center px-80 max-sm:px-10 max-sm:block max-md:px-15 max-md:block max-xl:px-20 max-2xl:px-40">
             <div class="w-3/4">
                 <p class="font-lora text-2xl">
@@ -15,7 +17,7 @@ import 'animate.css';
                     Bambang Wijaya
                 </p>
                 <p class="mt-3 text-xl max-sm:text-lg max-md:text-lg">Fullstack Developer • Laravel and VueJS Enthusiast</p>
-                <p class="mt-5 mb-10 w-195 text-lg max-sm:w-90 max-sm:text-base max-md:text-base max-md:w-160">
+                <p class="mt-5 mb-10 w-195 text-lg max-sm:w-90 max-sm:text-base max-md:text-base max-md:w-160 max-lg:w-135">
                     Website ini menampilkan progress proyek dan kontribusi saya sebagai pengembang di aspek teknologi.
                 </p>
                 <a href="#contact" class="px-5 text-white py-2.5 mt-2.5 bg-[#0259DD] font-semibold rounded-full">Hubungi Saya</a>
@@ -41,6 +43,22 @@ import 'animate.css';
 </template>
 
 <style>
+#hero{
+    background-image: url('/src/assets/images/bg-large-hero.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+@media (max-width: 768px){
+    #hero.small-bg{
+        background-image: url('/src/assets/images/bg-small-hero.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+}
+
 @keyframes gradient {
     0% {
         background-position: 0% 50%;

@@ -1,5 +1,5 @@
 <template>
-    <section id="about-me" class="px-80 py-20 max-sm:px-10 max-md:px-15 max-xl:px-20 max-2xl:px-40 2xl:h-screen">
+    <section id="about-me" class="small-bg px-80 py-20 max-sm:px-10 max-md:px-15 max-xl:px-20 max-2xl:px-40 2xl:h-screen">
         <h1 class="text-[#0259DD] text-2xl font-bold uppercase">Tentang Saya</h1>
         <div class="grid grid-cols-2 gap-10 mt-5 max-sm:grid-cols-1 max-md:grid-cols-1">
             <div class="w-full">
@@ -79,3 +79,21 @@
         </div>
     </section>
 </template>
+
+<style>
+#about-me{
+    background-image: url('/src/assets/images/bg-large-about.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+@media (max-width: 768px){
+    #about-me.small-bg{
+        background-image: url('/src/assets/images/bg-small-about.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+}
+</style>

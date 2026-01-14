@@ -13,6 +13,21 @@ import HomePortofolio from '@/components/HomeComponents/Portofolio.vue'
 import HomeEducation from '@/components/HomeComponents/Education.vue'
 // @ts-ignore
 import HomeContact from '@/components/HomeComponents/Contact.vue'
+
+import { useHead } from '@vueuse/head'
+
+const title = 'Bambang Wijaya • Portofolio';
+
+useHead({
+    title,
+    meta: [
+        {
+            name: 'description',
+            content: 'Portofolio Bambang Wijaya.'
+        }
+    ]
+})
+
 </script>
 
 <template>

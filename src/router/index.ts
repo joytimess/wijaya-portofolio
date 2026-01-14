@@ -9,8 +9,20 @@ const router = createRouter({
             path: '/',
             name: 'home',
             component: Home,
+            meta: {
+                title: 'Portofolio',
+            }
         }
     ]
+})
+
+router.beforeEach(async (to, from, next) => {
+    const defaultTitle = 'Bambang Wijaya'
+    document.title = to.meta.title
+        ? `${defaultTitle} • ${to.meta.title}`
+        : defaultTitle
+
+    next()
 })
 
 export default router

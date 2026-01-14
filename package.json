@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@tailwindcss/cli": "^4.1.18",
+    "@vueuse/head": "^2.0.0",
     "animate.css": "^4.1.1",
     "feather": "^0.0.5",
     "feather-icons": "^4.29.2",
@@ -21,6 +22,8 @@
     "@types/node": "^24.10.1",
     "@vitejs/plugin-vue": "^6.0.1",
     "@vue/tsconfig": "^0.8.1",
+    "@vueuse/core": "^14.1.0",
+    "@vueuse/nuxt": "^14.1.0",
     "typescript": "~5.9.3",
     "vite": "npm:rolldown-vite@7.2.5",
     "vue-tsc": "^3.1.4"

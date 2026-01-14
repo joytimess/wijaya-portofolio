@@ -43,7 +43,8 @@ onMounted(async () => {
                     group-hover:opacity-100
                     group-hover:scale-100
                     max-sm:opacity-100
-                    max-md:opacity-100">
+                    max-md:opacity-100
+                    max-lg:opacity-100">
                     <i data-feather="link" class="w-7 h-7 text-white max-sm:w-10 max-sm:h-10 max-md:w-10 max-md:h-10"></i>
                 </div>
                 <div class="py-5">
@@ -59,7 +60,9 @@ onMounted(async () => {
                         max-sm:translate-y-20
                         max-md:scale-125
                         max-md:translate-x-30
-                        max-md:translate-y-10">
+                        max-md:translate-y-10
+                        max-lg:translate-x-65
+                        max-lg:translate-y-25">
             </a>
             <a href="https://max-11.vercel.app" target="_blank" class="relative group w-2/3 bg-[#1EC338] h-100 rounded-4xl overflow-hidden max-sm:w-full max-md:w-full">
                 <div class="
@@ -71,7 +74,8 @@ onMounted(async () => {
                     group-hover:opacity-100
                     group-hover:scale-100
                     max-sm:opacity-100
-                    max-md:opacity-100">
+                    max-md:opacity-100
+                    max-lg:opacity-100">
                     <i data-feather="award" class="w-7 h-7 text-white max-sm:w-10 max-sm:h-10 max-md:w-10 max-md:h-10"></i>
                 </div>
                 <div class="py-5">
@@ -87,7 +91,10 @@ onMounted(async () => {
                         max-sm:translate-y-20
                         max-md:scale-125
                         max-md:translate-x-30
-                        max-md:translate-y-10">
+                        max-md:translate-y-10
+                        max-lg:scale-115
+                        max-lg:translate-x-25
+                        max-lg:translate-y-10">
             </a>
         </div>
         <!-- SUPPORT PORTOFOLIO -->
@@ -102,7 +109,8 @@ onMounted(async () => {
                     group-hover:opacity-100
                     group-hover:scale-100
                     max-sm:opacity-100
-                    max-md:opacity-100">
+                    max-md:opacity-100
+                    max-lg:opacity-100">
                     <svg role="img" width="50px" height="50px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                         <title>Subaru</title>
                         <path fill="#FFFFFF" d="M12 4.983c3.004 0 6.224.612 8.786 2.239C22.451 8.286 24 9.9 24 12.002c0 2.456-2.097 4.242-4.106 5.287-2.391 1.238-5.216 1.728-7.894 1.728-3.003 0-6.217-.605-8.78-2.238C1.556 15.714 0 14.101 0 12.003 0 9.536 2.092 7.757 4.106 6.71 6.504 5.474 9.323 4.983 12 4.983zm-.025.746c-2.793 0-5.802.523-8.225 1.983-1.524.912-3.03 2.347-3.03 4.253 0 2.239 2.04 3.806 3.864 4.706 2.258 1.102 4.897 1.53 7.391 1.53 2.798 0 5.809-.523 8.232-1.983 1.517-.918 3.029-2.346 3.029-4.253 0-2.243-2.035-3.813-3.864-4.705-2.258-1.104-4.898-1.53-7.397-1.53zm-10.54 4.686l4.597-.784 1.384-3.003L8.794 9.63l4.596.784-4.596.792-1.378 3.01-1.384-3.01zm10.106 2.289l2.028-.356.605-1.359.606 1.359 2.028.356-2.028.35-.606 1.36-.605-1.36zm4.196-3.621l2.028-.35.605-1.365.606 1.364 2.028.35-2.028.357-.606 1.36-.606-1.36zM13.57 15.51l2.02-.35.607-1.365.612 1.365 2.027.35-2.027.357-.612 1.36-.606-1.36zm-6.23.491l2.028-.35.612-1.366.605 1.366 2.028.35-2.028.357-.605 1.359-.612-1.359zm10.196-3.353l2.022-.357.605-1.359.612 1.359 2.028.357-2.028.35-.612 1.357-.606-1.357Z"/>
@@ -121,7 +129,10 @@ onMounted(async () => {
                         max-sm:translate-y-20
                         max-md:scale-125
                         max-md:translate-x-30
-                        max-md:translate-y-10">
+                        max-md:translate-y-10
+                        max-lg:scale-125
+                        max-lg:translate-x-30
+                        max-lg:translate-y-10">
             </a>
             <div class="relative group w-1/3 bg-[#ED3F27] h-100 rounded-4xl overflow-hidden max-sm:w-full max-md:w-full">
                 <div class="
@@ -133,7 +144,8 @@ onMounted(async () => {
                     group-hover:opacity-100
                     group-hover:scale-100
                     max-sm:opacity-100
-                    max-md:opacity-100">
+                    max-md:opacity-100
+                    max-lg:opacity-100">
                     <svg fill="#ffffff" width="50px" height="50px" viewBox="0 0 512 512" data-name="Layer 1" id="Layer_1" xmlns="http://www.w3.org/2000/svg">
                         <g id="SVGRepo_bgCarrier" stroke-width="0"/>
                         <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"/>
@@ -144,7 +156,7 @@ onMounted(async () => {
                     </svg>
                 </div>
                 <div class="py-5">
-                    <p class="text-right px-5 text-2xl text-white font-semibold">GT-Radial Copied</p>
+                    <p class="text-right px-5 text-2xl text-white font-semibold max-lg:text-xl">GT-Radial Copied</p>
                 </div>
                 <img :src="portofolioGT" alt="portofolio-gt-radial.jpg" 
                     class="
@@ -156,7 +168,9 @@ onMounted(async () => {
                         max-sm:translate-y-30
                         max-md:scale-125
                         max-md:translate-x-30
-                        max-md:translate-y-10">
+                        max-md:translate-y-10
+                        max-lg:translate-x-65
+                        max-lg:translate-y-35">
             </div>
         </div>
         <!-- ADDITIONAL PORTOFOLIO -->
@@ -176,6 +190,7 @@ onMounted(async () => {
                 group-hover:scale-100
                 max-sm:opacity-100
                 max-md:opacity-100
+                max-lg:opacity-100
             "
             >
                 <i data-feather="file-text" class="w-7 h-7 text-white max-sm:w-10 max-sm:h-10"></i>
@@ -218,6 +233,9 @@ onMounted(async () => {
                 max-md:scale-115
                 max-md:translate-x-25
                 max-md:translate-y-10
+                max-lg:scale-115
+                max-lg:translate-x-25
+                max-lg:translate-y-10
             "
             >
         </a>
