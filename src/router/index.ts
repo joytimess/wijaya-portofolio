@@ -16,7 +16,7 @@ const router = createRouter({
     ]
 })
 
-router.beforeEach(async (to, from, next) => {
+router.beforeEach(async (to, _, next) => {
     const defaultTitle = 'Bambang Wijaya'
     document.title = to.meta.title
         ? `${defaultTitle} • ${to.meta.title}`
